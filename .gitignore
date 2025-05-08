@@ -1,0 +1,44 @@
+# Build sonuçları
+bin/
+obj/
+
+# Visual Studio kullanıcı dosyaları
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio çalışma ayarları
+.vs/
+
+# Rider IDE
+.idea/
+
+# Debug logları
+*.log
+
+# Geçici dosyalar
+*.tmp
+*.bak
+
+# Paket geri yükleme klasörleri
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Windows sistem dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# .NET kullanıcı gizli dosyalar
+*.pdb
+*.cache
+
+# Resharper ve benzeri eklentiler
+_ReSharper*/
+*.DotSettings.user
+
+# Yayınlama klasörü
+publish/
+
