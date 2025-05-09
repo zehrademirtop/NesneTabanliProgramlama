@@ -54,7 +54,7 @@ namespace Modul1Unite2
             double sayi1 = Convert.ToDouble(TextBox1.Text);
             double sayi2 = Convert.ToDouble(TextBox2.Text);
             if (sayi2 != 0)
-            {
+            { 
                 double sonuc = sayi1 / sayi2;
                 TextBox3.Text = sonuc.ToString();
             }
