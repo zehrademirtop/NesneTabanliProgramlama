@@ -25,45 +25,49 @@ namespace Modul1Unite2
             InitializeComponent();
         }
 
-        private void Topla_Click(object sender, RoutedEventArgs e)
+
+      
+
+       
+
+        private void ButtonTopla_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            double sonuc = sayi1 + sayi2;
-            TextBox3.Text = sonuc.ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a + b).ToString();
+
         }
 
-        private void Cikarma_Click(object sender, RoutedEventArgs e)
+        private void ButtonCikar_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            double sonuc = sayi1 - sayi2;
-            TextBox3.Text = sonuc.ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a - b).ToString();
         }
 
-        private void Carpma_Click(object sender, RoutedEventArgs e)
+            private void ButtonCarp_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            double sonuc = sayi1 * sayi2;
-            TextBox3.Text = sonuc.ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a * b).ToString();
         }
 
-        private void Bolme_Click(object sender, RoutedEventArgs e)
+        private void ButtonBol_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            if (sayi2 != 0)
-            { 
-                double sonuc = sayi1 / sayi2;
-                TextBox3.Text = sonuc.ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+
+            if (b != 0)
+            {
+                TextBox3.Text = (a / b).ToString();
             }
             else
             {
-                MessageBox.Show("Sıfıra bölme hatası!");
+                TextBox3.Text = "Tanımsız"; // 0'a bölünme hatası
             }
         }
+        }
     }
-}
+
     
 

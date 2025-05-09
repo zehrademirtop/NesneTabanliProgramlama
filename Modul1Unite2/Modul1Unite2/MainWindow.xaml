@@ -10,10 +10,10 @@
         <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="156,38,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="156,106,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="156,166,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="ButtonTopla" Content="topla" HorizontalAlignment="Left" Margin="20,276,0,0" VerticalAlignment="Top" Height="32" Width="90"/>
-        <Button x:Name="ButtonCikar" Content="çıkar" HorizontalAlignment="Left" Margin="22,332,0,0" VerticalAlignment="Top" Height="29" Width="88"/>
-        <Button x:Name="ButtonCarp" Content="çarp" HorizontalAlignment="Left" Margin="24,391,0,0" VerticalAlignment="Top" Height="32" Width="86"/>
-        <Button x:Name="ButtonBol" Content="böl" HorizontalAlignment="Left" Margin="28,453,0,0" VerticalAlignment="Top" Height="30" Width="88"/>
+        <Button x:Name="ButtonTopla" Content="topla" HorizontalAlignment="Left" Margin="20,276,0,0" VerticalAlignment="Top" Height="32" Width="90" Click="ButtonTopla_Click"/>
+        <Button x:Name="ButtonCikar" Content="çıkar" HorizontalAlignment="Left" Margin="22,332,0,0" VerticalAlignment="Top" Height="29" Width="88" Click="ButtonCikar_Click"/>
+        <Button x:Name="ButtonCarp" Content="çarp" HorizontalAlignment="Left" Margin="24,391,0,0" VerticalAlignment="Top" Height="32" Width="86" Click="ButtonCarp_Click"/>
+        <Button x:Name="ButtonBol" Content="böl" HorizontalAlignment="Left" Margin="28,453,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="ButtonBol_Click"/>
 
     </Grid>
 </Window>
