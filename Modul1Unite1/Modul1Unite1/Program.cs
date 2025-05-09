@@ -6,7 +6,6 @@ namespace Modul1Unite1
     {
         static void Main(string[] args)
         {
-            // Haftanın günlerini alt alta yazan program
             Console.WriteLine("Pazartesi");
             Console.WriteLine("Salı");
             Console.WriteLine("Çarşamba");
@@ -15,7 +14,7 @@ namespace Modul1Unite1
             Console.WriteLine("Cumartesi");
             Console.WriteLine("Pazar");
 
-            Console.ReadLine(); // Ekranın hemen kapanmaması için
+            Console.ReadLine(); 
         }
     }
 }
